@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background4"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:id="@+id/frame_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                </FrameLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/navigation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:background="@drawable/rounded"
+            android:foreground="?attr/selectableItemBackground"
+
+            app:elevation="16dp"
+
+            app:itemIconTint="@android:color/white"
+            app:itemTextColor="@android:color/white"
+            app:labelVisibilityMode="selected"
+            app:menu="@menu/bottom_nav_menu" />
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:background="#FFFFFF"-->
+<!--    android:orientation="vertical"-->
+<!--    tools:context=".MainActivity">-->
+
+<!--    <Space-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="21dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/namePerson"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="46dp"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:text="Võ Thanh Danh Todo List"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textSize="25sp" />-->
+
+<!--    <Space-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="10dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/todoList"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:text="Todo List"-->
+<!--        android:textColor="#000000" />-->
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/todoListRecyclerView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="146dp">-->
+
+<!--    </androidx.recyclerview.widget.RecyclerView>-->
+
+<!--    <Space-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="12dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/importantList"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:text="Important List"-->
+<!--        android:textColor="#000000" />-->
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/importantListRecyclerView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="147dp" />-->
+
+<!--    <Space-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="11dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/doneList"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:text="Done List"-->
+<!--        android:textColor="#000000" />-->
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/doneListRecyclerView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="167dp" />-->
+
+<!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:id="@+id/navigation"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="54dp"-->
+<!--        android:layout_gravity="bottom"-->
+<!--        android:background="?android:attr/windowBackground"-->
+<!--        android:foreground="?attr/selectableItemBackground"-->
+<!--        app:itemBackground="@color/bgBottomNavigation"-->
+<!--        app:itemIconTint="@android:color/white"-->
+<!--        app:itemTextColor="@android:color/white"-->
+<!--        app:menu="@menu/bottom_nav_menu" />-->
+<!--</LinearLayout>-->
