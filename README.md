@@ -28,3 +28,6 @@ Search screen: looking for title of tasks:
 
 ![image](https://github.com/DannyEggy/ReminderApp/assets/125853072/a7f23d74-1b00-4093-a7d0-76ed41839370)
 
+Finally, profile screen: allow user to change several information: 
+
+![image](https://github.com/DannyEggy/ReminderApp/assets/125853072/6d15eafd-acf3-47c2-8270-691aca2ce895)
